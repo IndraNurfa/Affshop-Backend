@@ -17,7 +17,7 @@ mongoose.connect(mongoString);
 
 // Configure middleware
 app.use(cors({
-    origin: [`${process.env.PORT}`],
+    origin: "https://luxury-brioche-ed4d8f.netlify.app/",
     methods: ["GET", "POST"],
     credentials: true
 }));
